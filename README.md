@@ -722,7 +722,40 @@ The skill formalizes:
 - working-tree safety;
 - report usage;
 - Git provenance;
-- bounded project memory.
+- bounded project memory;
+
+---
+
+## Recommended pairing with TDD Development Skill
+
+The **PRD Context Router** and **TDD Development Skill** govern two separate layers of agentic software development:
+
+- **PRD Context Router** governs project memory, task state, context routing, progress, and handoff.
+- **TDD Development Skill** governs how repository code is changed, tested, refactored, and verified.
+
+Together, they separate two concerns that are often mixed:
+
+```text
+PRD Context Router
+    WHAT to work on
+    project state
+    task routing
+    bounded memory
+    progress tracking
+        ↓
+selected task
+        ↓
+TDD Development Skill
+    HOW to change the code
+    RED → GREEN → REFACTOR
+    verification
+```
+
+TDD Development Skill repository:
+
+[https://github.com/nazarenodefrancesc/agentic-tdd-skill](https://github.com/nazarenodefrancesc/agentic-tdd-skill)
+
+The TDD skill is standalone and can also be used without PRD Context Router when only the implementation discipline is needed.
 
 ---
 
