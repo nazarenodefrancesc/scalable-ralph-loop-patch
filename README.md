@@ -1,9 +1,7 @@
-# scalable-ralph-loop-patch
+# Scalable Ralph Loop Patch
+
 Scalable Ralph Loop Patch is a Markdown + Git workflow for agentic software development that keeps working context bounded through progressive disclosure, deterministic task routing, per-macro-task progress, and on-demand historical provenance.
 
-Scalable Ralph Loop Patch
-
-Progressive Disclosure and Bounded Project Memory for Agentic Development
 
 Scalable Ralph Loop Patch is a lightweight context-routing workflow for agentic software development.
 
